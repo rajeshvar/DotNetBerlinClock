@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("BerlinClock")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Rajesh implemtation of BerlinClock ")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("TEST COMPANY")]
+[assembly: AssemblyCompany("HCL")]
 [assembly: AssemblyProduct("BerlinClock")]
-[assembly: AssemblyCopyright("Copyright © TEST COMPANY 2016")]
+[assembly: AssemblyCopyright("Copyright © HCL 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

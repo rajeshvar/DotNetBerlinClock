@@ -82,13 +82,13 @@
     <None Include="SpecRunTestProfile.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="TestResults\BerlinClock_Default_2016-02-16T120635.log" />
+    <None Include="TestResults\BerlinClock_Default_2016-02-16T121936.log" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="TestResults\BerlinClock_Default_2016-02-16T120635.html" />
+    <Content Include="TestResults\BerlinClock_Default_2016-02-16T121936.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

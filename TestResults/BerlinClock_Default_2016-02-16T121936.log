@@ -1,0 +1,94 @@
+﻿Discovering target: Default
+Discovering tests from assembly: C:\Users\Rajesh\Source\Repos\DotNetBerlinClock\bin\Release\BerlinClock.dll
+Appdomain Disposed
+Test Suite Dump
+#0: BerlinClock/Default - 
+#1: Default - 
+#2: BerlinClock - 
+#3: The Berlin Clock - 
+#4: Midnight 00:00 - TestAssembly:BerlinClock/Feature:The+Berlin+Clock/Scenario:Midnight+00%3a00
+#5: Middle of the afternoon - TestAssembly:BerlinClock/Feature:The+Berlin+Clock/Scenario:Middle+of+the+afternoon
+#6: Just before midnight - TestAssembly:BerlinClock/Feature:The+Berlin+Clock/Scenario:Just+before+midnight
+#7: Midnight 24:00 - TestAssembly:BerlinClock/Feature:The+Berlin+Clock/Scenario:Midnight+24%3a00
+End: Test Suite Dump -- X
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Thread #0: creating new test thread executor for BerlinClock, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Rajesh\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #4/0 is started on thread #0
+B:When the time is "00:00:00"
+T:done: BerlinClockFeatureSteps.WhenTheTimeIs("00:00:00") (0.0s)
+B:Then the clock should look like
+B:  --- multiline step argument ---
+B:  Y
+B:OOOO
+B:OOOO
+B:OOOOOOOOOOO
+B:OOOO
+T:done: BerlinClockFeatureSteps.ThenTheClockShouldLookLike("Y
+T:OOOO
+T:OOOO
+T:OOOOO...") (0.0s)
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Test #4 is finished on thread #0 as Succeeded within 0.3783467 seconds
+Test #5/0 is started on thread #0
+B:When the time is "13:17:01"
+T:done: BerlinClockFeatureSteps.WhenTheTimeIs("13:17:01") (0.0s)
+B:Then the clock should look like
+B:  --- multiline step argument ---
+B:  O
+B:RROO
+B:RRRO
+B:YYROOOOOOOO
+B:YYOO
+T:done: BerlinClockFeatureSteps.ThenTheClockShouldLookLike("O
+T:RROO
+T:RRRO
+T:YYROO...") (0.0s)
+Scheduler: considering #6 for thread #0
+Scheduler: using #6 for thread #0
+Test #6 is scheduled for thread #0
+Test #5 is finished on thread #0 as Succeeded within 0.0010012 seconds
+Test #6/0 is started on thread #0
+B:When the time is "23:59:59"
+T:done: BerlinClockFeatureSteps.WhenTheTimeIs("23:59:59") (0.0s)
+B:Then the clock should look like
+B:  --- multiline step argument ---
+B:  O
+B:RRRR
+B:RRRO
+B:YYRYYRYYRYY
+B:YYYY
+T:done: BerlinClockFeatureSteps.ThenTheClockShouldLookLike("O
+T:RRRR
+T:RRRO
+T:YYRYY...") (0.0s)
+Scheduler: considering #7 for thread #0
+Scheduler: using #7 for thread #0
+Test #7 is scheduled for thread #0
+Test #6 is finished on thread #0 as Succeeded within 0.0010006 seconds
+Test #7/0 is started on thread #0
+B:When the time is "24:00:00"
+T:done: BerlinClockFeatureSteps.WhenTheTimeIs("24:00:00") (0.0s)
+B:Then the clock should look like
+B:  --- multiline step argument ---
+B:  Y
+B:RRRR
+B:RRRR
+B:OOOOOOOOOOO
+B:OOOO
+T:done: BerlinClockFeatureSteps.ThenTheClockShouldLookLike("Y
+T:RRRR
+T:RRRR
+T:OOOOO...") (0.0s)
+Test #7 is finished on thread #0 as Succeeded within 0.001001 seconds
+Appdomain Disposed
+Total: 4
+Succeeded: 4
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
